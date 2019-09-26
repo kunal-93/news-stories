@@ -9,11 +9,18 @@ body {
   display: inline-block;
   overflow: hidden;
   max-width: 30em;
-  margin: 1em 0;
+  margin: 1em 0em;
+  text-align: left;
+  border-radius: 0.5em;
 }
 .news-lead {
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .news-img {
   max-width: 100%;
+}
+.news-content{
+  padding: 0 1em;
+  font-family: 'Times New Roman', Times, serif;
 }
