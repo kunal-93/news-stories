@@ -3,15 +3,21 @@ body {
 }
 .stories {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  max-width: 60em;
+  margin: auto;
 }
 .news {
   background-color: white;
   display: inline-block;
   overflow: hidden;
-  max-width: 30em;
   margin: 1em 0em;
   text-align: left;
   border-radius: 0.5em;
+  box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.5);
+  
 }
 .news-lead {
   text-align: center;
@@ -23,4 +29,19 @@ body {
 .news-content{
   padding: 0 1em;
   font-family: 'Times New Roman', Times, serif;
+}
+.story-button{
+  background-color: #333333;
+  color: white;
+  border: #555555 solid .1rem;
+  padding: .8rem 1.5rem;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.pagination li,a{
+  display: inline-block;
+  text-decoration: None;
 }
